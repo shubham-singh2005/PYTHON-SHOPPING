@@ -1,0 +1,10 @@
+qa=int(input("Enter quantity of first item: "))
+qb=int(input("Enter quantity of second item: "))
+qc=int(input("Enter quantity of third item: "))
+a=int(input("Enter price of first item: "))
+b=int(input("Enter price of second item: "))
+c=int(input("Enter price of third item: "))
+total=a*qa+b*qb+c*qc
+if(total>50):
+  total=total-(0.1*total)
+print(total)
